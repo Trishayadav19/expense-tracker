@@ -6,6 +6,7 @@ const jwt = require("jsonwebtoken");
 const crypto = require("crypto");
 const sendEmail = require("../otp.js");
 const validate = require("../middleware/validate.js")
+
 const {
   registerSchema,
   loginSchema,
